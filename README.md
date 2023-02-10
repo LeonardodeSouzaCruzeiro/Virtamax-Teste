@@ -2,7 +2,15 @@
 Teste VirtuaMax
 
 # Rodando aplicação
-Utilizei um servidor local(Xampp) para simular meu banco de dados mysql com axilio o PhpMyAdmin. 
+Na pasta `backend` abra no terminal:
+
+     cd /backend
+
+Instalar pacotes de depedencia `vendor`
+
+    composer update
+
+Utilizei um servidor local(Xampp com PHP 8) para simular meu banco de dados mysql com axilio o PhpMyAdmin. 
 
 Temos criar um banco com nome 'laravel', utilizando a configuração padrão do arquivo `.env` na minha arquitetura Laravel 8
 
@@ -17,13 +25,7 @@ Inserir dados a tabela:
      
      php artisan migrate:fresh --seed
 
-Na pasta `backend` abra no terminal:
 
-     cd /backend
-
-Instalar pacotes de depedencia `vendor`
-
-    composer update
 
 Rodando servidor local do Laravel:
 

@@ -47,7 +47,9 @@ Para vizualizar a aplicação abre o link gerado na responsta do teminal do serv
 
       http://localhost:8080/
      
-     
+OBS.: Após o download e extração da aplicação o caminho ficará  `\Virtuamax-Teste-main\Virtuamax-Teste-main\frontend`
+isso irá gerar o erro ERROR in Conflict: Multiple assets emit different content to the same filename index.html
+mantenha o caminho  `\Virtuamax-Teste-main\frontend`
 
 # Experiencia 
   

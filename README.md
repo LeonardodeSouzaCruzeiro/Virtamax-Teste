@@ -8,7 +8,7 @@ Na pasta `backend` abra no terminal:
 
 Instalar pacotes de depedencia `vendor`
 
-    composer update
+     composer update --ignore-platform-req=ext-gd
 
 Utilizei um servidor local(Xampp com PHP 8) para simular meu banco de dados mysql com axilio o PhpMyAdmin. 
 

@@ -6,11 +6,11 @@ Na pasta `backend` abra no terminal:
 
      cd /backend
 
-Instalar pacotes de depedencia `vendor`
+Instalar os pacotes de dependências `vendor`
 
      composer update --ignore-platform-req=ext-gd
 
-Utilizei um servidor local(Xampp com PHP 8) para simular meu banco de dados mysql com axilio o PhpMyAdmin. 
+Utilizei um servidor local(Xampp com PHP 8) para simular meu banco de dados mysql com axílio do PhpMyAdmin. 
 
 Temos criar um banco com nome 'laravel', utilizando a configuração padrão do arquivo `.env` na minha arquitetura Laravel 8
 
@@ -21,7 +21,7 @@ Criar tabelas:
 
      php artisan migrate
 
-Inserir dados a tabela:
+Inserir dados na tabela:
      
      php artisan migrate:fresh --seed
 
@@ -35,7 +35,7 @@ Logo após abra a pasta `frontend` no terminal:
 
      cd /frontend
 
-Instalar pacotes de depedencia `node_modules`
+Instalar os pacotes de dependências `node_modules`
     
     npm install
 
@@ -43,7 +43,7 @@ Rodando servidor local do Vue.js:
 
      npm run serve
      
-Para vizualizar a aplicação abre o link gerado na responsta do teminal do servido Vue.js:
+Para vizualizar a aplicação abre o link gerado na resposta do teminal do servido Vue.js:
 
       http://localhost:8080/
      
@@ -51,7 +51,7 @@ OBS.: Após o download e  a extração da aplicação o caminho ficará  `\Virtu
 isso irá gerar o erro `ERROR in Conflict: Multiple assets emit different content to the same filename index.html`
 mantenha o caminho  `\Virtuamax-Teste-main\frontend`
 
-# Experiencia 
+# Experiência 
   
 VirtuaMax
 
